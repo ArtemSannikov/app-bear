@@ -1,0 +1,16 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border:1px solid #999;
+}
+	table td {
+		border:1px solid #999;
+		color: #333;
+		padding: 0 5px;
+	}
+
+img {
+	max-width:100%;
+	height:auto;
+}
