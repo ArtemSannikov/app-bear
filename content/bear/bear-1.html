@@ -19,7 +19,6 @@
 	<!-- cordova js -->
 	<script src="../../cordova.js"></script>
 	<!-- AdMob -->
-	<script src="../../js/admob/phonegap-admob.js"></script>
 	<script src="../../js/admob/banner.js"></script>
 </head>
 <body>
@@ -33,7 +32,7 @@
 	</div>
 
 	<div data-role="main" class="ui-content">
-
+	<script type="text/javascript">admob.createBannerView();</script>
 		<!-- Выезжающая панель слева -->
 		<div data-role="panel" data-display="overlay" data-position="right" id="list">
 			<ul data-role="listview">

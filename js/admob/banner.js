@@ -13,6 +13,13 @@ function onDeviceReady() {
 		autoShowBanner: true, //автоматическое показ объявлений баннеров, когда они доступны
 		autoShowInterstitial: true //объявление объявления межстраничного объявления при наличии
 	});
+
+	// Start showing banners (atomatic when autoShowBanner is set to true) 
+	admob.createBannerView();
+
+	// Request interstitial (will present automatically when autoShowInterstitial is set to true) 
+	admob.requestInterstitialAd();
+
 }
 
 document.addEventListener("deviceready", onDeviceReady, false);
