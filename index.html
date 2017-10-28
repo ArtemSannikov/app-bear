@@ -20,6 +20,19 @@
 	<script src="cordova.js"></script>
 	<!-- AdMob -->
 	<script type="text/javascript" src="js/admob/banner.js"></script>
+	<!-- Initialize Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+	<script>
+		var config = {
+			apiKey: "AIzaSyAE9zvGnFpzNOiE_ivf-4-VVYhqxnTHVmg",
+			authDomain: "app-bear.firebaseapp.com",
+			databaseURL: "https://app-bear.firebaseio.com",
+			projectId: "app-bear",
+			storageBucket: "app-bear.appspot.com",
+			messagingSenderId: "87562151020"
+		};
+		firebase.initializeApp(config);
+	</script>
 </head>
 
 <body>
